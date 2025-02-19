@@ -6,13 +6,9 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class ContaTerminal {
 
-
-
-
     public static void main(String[] args) {
 
         final double saldoNovoCliente = 1590.35;
-
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
@@ -31,7 +27,5 @@ public class ContaTerminal {
                 + " sua agência é " + agencia + ", conta "
                 + numeroUsuario + " e seus saldo "
                 + saldoNovoCliente + " já está disponível para saque.");
-
-
         }
 }
