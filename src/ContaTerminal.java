@@ -19,7 +19,6 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o número de Agência ");
         String agencia = scanner.next();
 
-
         System.out.println("Olá " + nomeCliente +
                 ", obrigado por criar uma conta em nosso banco,"
                 + " sua agência é " + agencia + ", conta "
